@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "rn-expo-demo",
+    "slug": "rn-expo-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/logo_big.png",
+      "mdpi": "./assets/images/drawable-port-mdpi/screen.png",
+      "hdpi": "./assets/images/drawable-port-hdpi/screen.png",
+      "xhdpi": "./assets/images/drawable-port-xhdpi/screen.png",
+      "xxhdpi": "./assets/images/drawable-port-xxhdpi/screen.png",
+      "xxxhdpi": "./assets/images/drawable-port-xxhdpi/screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aelf.learn"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "068887ed-a3f3-424a-a658-735ed917d79b"
+      }
+    }
+  }
+}
