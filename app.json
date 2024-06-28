@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-expo-demo",
-    "slug": "rn-expo-demo",
+    "name": "Learn blockchain Program",
+    "slug": "learn-blockchain-program",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/app-logo.png",
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/app-logo.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.aelf.learn"
