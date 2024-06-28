@@ -8,12 +8,8 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/logo_big.png",
-      "mdpi": "./assets/images/drawable-port-mdpi/screen.png",
-      "hdpi": "./assets/images/drawable-port-hdpi/screen.png",
-      "xhdpi": "./assets/images/drawable-port-xhdpi/screen.png",
-      "xxhdpi": "./assets/images/drawable-port-xxhdpi/screen.png",
-      "xxxhdpi": "./assets/images/drawable-port-xxhdpi/screen.png",
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
